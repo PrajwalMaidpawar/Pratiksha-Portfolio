@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #151419;
+  --color-canvas-subtle: #1C1B22;
+  --color-canvas-card: #201F28;
+  --color-canvas-border: #2C2A35;
+  --color-canvas-border-light: #3A3746;
+
+  --color-cream: #E6E2DE;
+  --color-cream-muted: #8E8A85;
+  --color-cream-dim: #605D59;
+
+  --color-copper: #C38A68;
+  --color-copper-light: #D59B79;
+  --color-copper-dark: #9F6C4E;
+  --color-copper-glow: rgba(195, 138, 104, 0.15);
+
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  --background: #151419;
+  --foreground: #E6E2DE;
+  --accent: #C38A68;
+  --accent-hover: #D59B79;
+  --muted: #8E8A85;
+  --surface: #1C1B22;
+  --surface-card: #201F28;
+  --border: #2C2A35;
+  --container-width: 1320px;
+  --display-font: 'Bebas Neue', sans-serif;
+  --body-font: 'Plus Jakarta Sans', sans-serif;
+}
+
+html {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--body-font);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: #151419;
+  color: #E6E2DE;
+}
+
+/* Custom Typography Utilities */
+.font-display {
+  font-family: var(--display-font);
+  letter-spacing: 0.02em;
+}
+
+.font-body {
+  font-family: var(--body-font);
+}
+
+/* Section scroll offset for fixed navigation */
+section[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #151419;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2C2A35;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C38A68;
+}

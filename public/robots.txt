@@ -1,0 +1,9 @@
+# robots.txt for Pratiksha Maidpawar Creator Portfolio
+# https://pratikshamaidpawar.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap location
+Sitemap: /sitemap.xml

@@ -1,0 +1,6 @@
+{
+  "name": "Pratiksha Maidpawar Portfolio",
+  "description": "Pratiksha Maidpawar is a content creator, model and standup performer creating entertaining stories, street interviews, comedy, fashion content and creative brand collaborations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
