@@ -30,7 +30,7 @@ export default function IntroductionHeading() {
       </motion.div>
 
       {/* Massive Display Title */}
-      <div className="overflow-hidden">
+      <div className="overflow-visible pr-2">
         <motion.h2
           initial={{
             opacity: 0,
@@ -44,7 +44,7 @@ export default function IntroductionHeading() {
           }}
           viewport={{ once: true, margin: '-60px' }}
           transition={{ duration: shouldReduceMotion ? 0.4 : 0.95, ease: editorialEase }}
-          className="font-display text-[clamp(2.75rem,7.5vw,9.5rem)] leading-[0.88] text-[#C38A68] tracking-tight m-0"
+          className="font-display text-[clamp(2.5rem,4.6vw,5.2rem)] xl:text-[5.8rem] leading-[0.9] text-[#C38A68] tracking-tight m-0 whitespace-nowrap"
         >
           INTRODUCTION
         </motion.h2>
