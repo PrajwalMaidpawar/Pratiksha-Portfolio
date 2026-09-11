@@ -12,7 +12,6 @@ import Container from '../components/Container';
 import Section from '../components/Section';
 import ContactHeader from '../components/contact/ContactHeader';
 import ContactDetails from '../components/contact/ContactDetails';
-import ContactForm from '../components/contact/ContactForm';
 import ContactCTA from '../components/contact/ContactCTA';
 
 export default function Contact() {
@@ -23,17 +22,9 @@ export default function Contact() {
           {/* Section Header with Staggered Typography Reveal */}
           <ContactHeader />
 
-          {/* Editorial 2-Column Grid (Desktop >= 1024px) */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
-            {/* Left Column (Cols 1–5): Direct Channels, Status, Details */}
-            <div className="lg:col-span-5">
-              <ContactDetails />
-            </div>
-
-            {/* Right Column (Cols 6–12): Luxury Underline Inquiry Form */}
-            <div className="lg:col-span-7">
-              <ContactForm />
-            </div>
+          {/* Expanded Direct Contact Showcase */}
+          <div className="max-w-4xl mx-auto w-full">
+            <ContactDetails />
           </div>
 
           {/* Final Cinematic Visual Moment & Instagram Transition */}

@@ -10,7 +10,7 @@
  */
 
 import { motion, useReducedMotion } from 'motion/react';
-import { ArrowUp, Instagram, Mail, Phone, Heart } from 'lucide-react';
+import { ArrowUp, Instagram, Mail } from 'lucide-react';
 import navigationItems from '../../data/navigation';
 import siteConfig from '../../data/siteConfig';
 
@@ -75,13 +75,6 @@ export default function ContactFooter() {
                 aria-label="Official Email"
               >
                 <Mail className="w-4 h-4" />
-              </a>
-              <a
-                href={`tel:${siteConfig.phone}`}
-                className="w-10 h-10 rounded-full bg-[#18171E] border border-[#2C2A35] hover:border-[#C38A68] hover:bg-[#C38A68] hover:text-[#151419] flex items-center justify-center text-[#E6E2DE] transition-all duration-300"
-                aria-label="Direct Phone"
-              >
-                <Phone className="w-4 h-4" />
               </a>
             </div>
           </div>

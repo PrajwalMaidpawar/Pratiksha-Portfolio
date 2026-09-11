@@ -9,8 +9,8 @@ import CollaborationItem from './CollaborationItem';
 import { Layers } from 'lucide-react';
 
 export default function CollaborationList({ formats = [] }) {
-  // Default first format expanded for initial visual discovery
-  const [expandedId, setExpandedId] = useState('brand-collaborations');
+  // All formats closed initially; expands when user clicks on explore
+  const [expandedId, setExpandedId] = useState(null);
 
   const handleToggle = (id) => {
     setExpandedId((prev) => (prev === id ? null : id));
