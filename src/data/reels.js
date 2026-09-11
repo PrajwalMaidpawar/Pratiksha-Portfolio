@@ -48,7 +48,7 @@ export const reelsData = [
     videoUrl: null,
     aspectRatio: '9:16',
     description:
-      'Candid personal interview exploring life behind the camera, balancing an MBA at PUMBA with standup comedy and full-time content creation.',
+      'Candid personal interview exploring life behind the camera, balancing standup comedy, fashion storytelling, and full-time content creation.',
     instagramUrl: 'https://www.instagram.com/see.awkwards',
   },
   {

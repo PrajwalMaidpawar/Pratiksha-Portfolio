@@ -32,7 +32,7 @@ export default function IntroductionCopy() {
           <span>The Creative Journey</span>
         </span>
         <span className="font-mono text-[11px] text-[#8E8A85]">
-          PUMBA MBA // STANDUP // COMEDY
+          CONTENT CREATOR // STANDUP // PERFORMER
         </span>
       </motion.div>
 
@@ -55,24 +55,7 @@ export default function IntroductionCopy() {
             <div className="absolute left-0 top-3 bottom-3 w-[2px] bg-transparent group-hover:bg-[#C38A68]/60 transition-colors duration-300 rounded-full" />
 
             <p className="text-base sm:text-lg text-[#E6E2DE]/85 group-hover:text-[#E6E2DE] leading-relaxed transition-colors duration-200">
-              {/* Highlight brand mentions in paragraph 3 for immediate credibility scan */}
-              {index === 2 ? (
-                <>
-                  With <span className="text-[#C38A68] font-semibold">52M+ views</span> on my content
-                  and collaborations with brands like{' '}
-                  <span className="text-[#E6E2DE] font-semibold underline decoration-[#C38A68]/50 decoration-1 underline-offset-4">
-                    Westside
-                  </span>{' '}
-                  and{' '}
-                  <span className="text-[#E6E2DE] font-semibold underline decoration-[#C38A68]/50 decoration-1 underline-offset-4">
-                    Flo Mattress
-                  </span>
-                  , I love creating ideas that entertain audiences while giving brands a natural and
-                  creative place in the story.
-                </>
-              ) : (
-                paragraph
-              )}
+              {paragraph}
             </p>
           </motion.div>
         ))}

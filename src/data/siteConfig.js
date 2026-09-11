@@ -29,7 +29,7 @@ export const siteConfig = {
   bio: [
     "Hi, I'm Pratiksha — a content creator, performer and creative mind who loves turning everyday moments into entertaining stories.",
     "My page started with street interviews, but I've always believed an interview doesn't have to be just a Q&A. I constantly experiment with comedy, dance, storytelling and unexpected concepts, creating a space that feels spontaneous, energetic and uniquely mine.",
-    "With 52M+ views on my content and collaborations with brands like Westside and Flo Mattress, I love creating ideas that entertain audiences while giving brands a natural and creative place in the story.",
+    "With 52M+ views on my content and collaborations with leading brands like Flo Mattress, I love creating ideas that entertain audiences while giving brands a natural and creative place in the story.",
     "Beyond digital content, I'm excited to explore modelling, fashion collaborations and events — bringing the same energy, confidence and creativity wherever I go.",
     "I don't just create content. I create moments people remember.",
   ],
@@ -44,7 +44,6 @@ export const siteConfig = {
       'Model',
       'Standup Comedy',
       'Street Interviewer',
-      'Westside Collaboration',
       'Flo Mattress',
     ],
   },
