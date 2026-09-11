@@ -6,7 +6,7 @@
 
 import { useState } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
-import { Mail, Instagram, ArrowUpRight, Copy, Check, Sparkles, MapPin, Clock } from 'lucide-react';
+import { Mail, Instagram, ArrowUpRight, Copy, Check, Sparkles, MapPin } from 'lucide-react';
 import siteConfig from '../../data/siteConfig';
 import { editorialEase } from '../../styles/animations';
 
@@ -137,25 +137,15 @@ export default function ContactDetails() {
           </a>
         </div>
 
-        {/* Location & Turnaround Indicators */}
-        <div className="pt-6 border-t border-[#2C2A35] grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-mono text-[#8E8A85]">
-          <div className="flex items-center gap-3 p-3 rounded-xl bg-[#151419] border border-[#2C2A35]">
+        {/* Location Indicator */}
+        <div className="pt-6 border-t border-[#2C2A35] flex items-center justify-start text-xs font-mono text-[#8E8A85]">
+          <div className="flex items-center gap-3 p-3 px-4 rounded-xl bg-[#151419] border border-[#2C2A35] w-full sm:w-auto">
             <div className="w-8 h-8 rounded-lg bg-[#1C1B22] flex items-center justify-center text-[#C38A68] shrink-0">
               <MapPin className="w-4 h-4" />
             </div>
             <div>
               <span className="font-bold text-[#C38A68] block">LOCATION</span>
               <p className="text-[#E6E2DE] text-xs m-0">Pune &amp; Mumbai, India</p>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-3 p-3 rounded-xl bg-[#151419] border border-[#2C2A35]">
-            <div className="w-8 h-8 rounded-lg bg-[#1C1B22] flex items-center justify-center text-[#C38A68] shrink-0">
-              <Clock className="w-4 h-4" />
-            </div>
-            <div>
-              <span className="font-bold text-[#C38A68] block">RESPONSE TIME</span>
-              <p className="text-[#E6E2DE] text-xs m-0">Within 24–48 Hours</p>
             </div>
           </div>
         </div>

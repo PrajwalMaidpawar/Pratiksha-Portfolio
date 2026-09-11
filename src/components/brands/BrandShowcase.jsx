@@ -126,6 +126,7 @@ function BrandCaseStudyRow({
                 alt={`${brand.brand} collaboration campaign with Pratiksha Maidpawar`}
                 referrerPolicy="no-referrer"
                 loading="lazy"
+                decoding="async"
                 onLoad={() => {
                   setImageLoaded(true);
                   setImageFailed(false);

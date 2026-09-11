@@ -34,9 +34,9 @@ export default function BrandWorks() {
     setSelectedBrand(null);
   };
 
-  const handleScrollToCollaborate = (e) => {
+  const handleScrollToContact = (e) => {
     e.preventDefault();
-    const target = document.getElementById('collaborate');
+    const target = document.getElementById('contact');
     if (target) {
       target.scrollIntoView({ behavior: 'smooth' });
     }
@@ -58,7 +58,7 @@ export default function BrandWorks() {
           {/* Secondary Collaborations Summary Sentence (Jamunai & JK Perfumes) */}
           <BrandCard summary={secondarySummary} />
 
-          {/* Editorial Transition Bridge to #collaborate */}
+          {/* Editorial Transition Bridge to #contact */}
           <motion.div
             initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -78,11 +78,11 @@ export default function BrandWorks() {
               </div>
 
               <a
-                href="#collaborate"
-                onClick={handleScrollToCollaborate}
+                href="#contact"
+                onClick={handleScrollToContact}
                 className="group inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[#1C1B22] border border-[#2C2A35] hover:border-[#C38A68] text-xs font-mono font-semibold tracking-wider text-[#E6E2DE] hover:text-[#C38A68] transition-all duration-300 shrink-0 self-start sm:self-auto shadow-md"
               >
-                <span>LET'S COLLABORATE</span>
+                <span>GET IN TOUCH</span>
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
               </a>
             </div>

@@ -81,7 +81,7 @@ export default function ContactHeader() {
             Have a campaign, video concept, brand activation, or live event? Let’s make content that captivates and connects.
           </p>
           <p className="font-body text-xs sm:text-sm text-[#8E8A85] leading-relaxed">
-            Directly managed by Pratiksha &amp; representation. All proposals receive a direct response within 24–48 hours.
+            Directly managed by Pratiksha &amp; representation.
           </p>
         </motion.div>
       </div>

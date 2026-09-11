@@ -196,6 +196,7 @@ export default function ContentGallery({
                   alt={activeItem.alt}
                   referrerPolicy="no-referrer"
                   loading="lazy"
+                  decoding="async"
                   onLoad={() => {
                     setImageLoaded(true);
                     setImageFailed(false);

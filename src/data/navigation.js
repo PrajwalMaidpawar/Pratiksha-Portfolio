@@ -9,7 +9,6 @@ export const navigationItems = [
   { label: 'CONTENT', href: '#content', id: 'content' },
   { label: 'REELS', href: '#reels', id: 'reels' },
   { label: 'BRANDS', href: '#brands', id: 'brands' },
-  { label: 'COLLABORATE', href: '#collaborate', id: 'collaborate' },
   { label: 'CONTACT', href: '#contact', id: 'contact' },
 ];
 

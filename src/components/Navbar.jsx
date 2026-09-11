@@ -147,7 +147,7 @@ export default function Navbar() {
           role="dialog"
           aria-modal="true"
           aria-label="Navigation Menu"
-          className="lg:hidden fixed inset-x-0 top-[60px] bottom-0 bg-[#151419]/98 backdrop-blur-xl border-t border-[#2C2A35] p-6 flex flex-col justify-between overflow-y-auto z-50"
+          className="lg:hidden fixed inset-x-0 top-[60px] h-[calc(100dvh-60px)] bg-[#151419]/98 backdrop-blur-xl border-t border-[#2C2A35] p-6 pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))] flex flex-col justify-between overflow-y-auto z-50"
         >
           <div className="flex flex-col space-y-2 pt-2">
             <span className="text-[10px] tracking-[0.2em] uppercase text-[#8E8A85] mb-2">

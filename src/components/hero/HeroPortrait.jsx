@@ -117,6 +117,8 @@ export default function HeroPortrait({ className = '' }) {
                 src={activeSrc}
                 alt="Pratiksha Maidpawar holding microphone on stage"
                 referrerPolicy="no-referrer"
+                loading="eager"
+                decoding="async"
                 onLoad={() => {
                   setImageLoaded(true);
                   setImageError(false);

@@ -14,7 +14,6 @@ import Introduction from './sections/Introduction';
 import MyContent from './sections/MyContent';
 import Reels from './sections/Reels';
 import BrandWorks from './sections/BrandWorks';
-import Collaborate from './sections/Collaborate';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 
@@ -42,7 +41,6 @@ export default function App() {
         <MyContent />
         <Reels />
         <BrandWorks />
-        <Collaborate />
         <Contact />
       </main>
 

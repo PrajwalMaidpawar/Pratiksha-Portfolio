@@ -81,6 +81,7 @@ export default function ReelCard({
               alt={`${reel.title} - ${reel.category} by Pratiksha Maidpawar`}
               referrerPolicy="no-referrer"
               loading="lazy"
+              decoding="async"
               onLoad={() => {
                 setImageLoaded(true);
                 setImageFailed(false);
